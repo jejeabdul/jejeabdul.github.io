@@ -15,4 +15,4 @@ Replace the files in your `jejeabdul.github.io` repository with this version and
 - `index.html` — content and structure
 - `css/style.css` — complete responsive visual system
 - `js/main.js` — theme toggle, mobile menu, portfolio filters, modal, reveal animations
-- `images/` — existing profile and project visuals retained from the previous portfolio
+- `images/` — project screenshots (hero visual is an inline SVG in `index.html`)

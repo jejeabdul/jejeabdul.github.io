@@ -65,7 +65,30 @@
           </div>
           <div class="profile-body">
             <div class="portrait-wrap">
-              <img src="images/img1.jpeg" alt="Jeje Abdul Rahman" />
+              <svg class="hero-art" viewBox="0 0 440 430" role="img" aria-label="Diagram of connected web, mobile, API and database systems">
+                <defs>
+                  <radialGradient id="artCore" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="var(--cyan)" stop-opacity=".45" /><stop offset="1" stop-color="var(--cyan)" stop-opacity="0" /></radialGradient>
+                </defs>
+                <circle cx="220" cy="200" r="120" fill="url(#artCore)" />
+                <g class="art-rings">
+                  <circle class="ring ring-a" cx="220" cy="200" r="72" />
+                  <circle class="ring ring-b" cx="220" cy="200" r="132" />
+                  <circle class="ring ring-c" cx="220" cy="200" r="190" />
+                </g>
+                <g class="art-links">
+                  <path d="M220 200 L108 56" /><path d="M220 200 L334 70" /><path d="M220 200 L340 310" /><path d="M220 200 L88 320" />
+                </g>
+                <g class="art-core">
+                  <rect x="184" y="164" width="72" height="72" rx="20" />
+                  <text x="220" y="209" text-anchor="middle">&lt;/&gt;</text>
+                </g>
+                <g class="art-node node-cyan" transform="translate(60 36)"><rect width="96" height="40" rx="12" /><circle cx="18" cy="20" r="5" /><text x="32" y="25">web</text></g>
+                <g class="art-node node-blue" transform="translate(286 50)"><rect width="96" height="40" rx="12" /><circle cx="18" cy="20" r="5" /><text x="32" y="25">mobile</text></g>
+                <g class="art-node node-purple" transform="translate(292 290)"><rect width="96" height="40" rx="12" /><circle cx="18" cy="20" r="5" /><text x="32" y="25">api</text></g>
+                <g class="art-node node-cyan" transform="translate(40 300)"><rect width="96" height="40" rx="12" /><circle cx="18" cy="20" r="5" /><text x="32" y="25">database</text></g>
+                <circle class="art-pulse" cx="220" cy="200" r="72" />
+                <text class="art-caption" x="24" y="404">system.map · 4 services online</text>
+              </svg>
               <div class="portrait-glow"></div>
             </div>
             <div class="code-card" aria-hidden="true">
@@ -241,7 +264,10 @@
           <span class="section-kicker">05 / CONTACT</span>
           <h2>Have a product problem worth solving?</h2>
           <p>I'm always interested in thoughtful software, useful systems, and good engineering conversations.</p>
-          <a class="button primary" href="mailto:jejeabdulrahman@gmail.com">jejeabdulrahman@gmail.com <span>↗</span></a>
+          <div class="hero-actions">
+            <a class="button primary" href="mailto:jejeabdulrahman@gmail.com">jejeabdulrahman@gmail.com <span>↗</span></a>
+            <a class="button secondary" href="https://www.linkedin.com/in/jeje-abdul-rahman-51a781b6/" target="_blank" rel="noopener">LinkedIn <span>↗</span></a>
+          </div>
         </div>
         <div class="contact-terminal" aria-label="Contact information">
           <div class="terminal-top"><span></span><span></span><span></span></div>
@@ -249,7 +275,8 @@
             <p><b>~</b> whoami</p><p class="terminal-output">Jeje Abdul Rahman</p>
             <p><b>~</b> role</p><p class="terminal-output">Software Engineer</p>
             <p><b>~</b> location</p><p class="terminal-output">Indonesia</p>
-            <p><b>~</b> contact --email</p><p class="terminal-output">jejeabdulrahman@gmail.com<span class="cursor">_</span></p>
+            <p><b>~</b> contact --email</p><p class="terminal-output">jejeabdulrahman@gmail.com</p>
+            <p><b>~</b> contact --linkedin</p><p class="terminal-output"><a href="https://www.linkedin.com/in/jeje-abdul-rahman-51a781b6/" target="_blank" rel="noopener">in/jeje-abdul-rahman</a><span class="cursor">_</span></p>
           </div>
         </div>
       </div>
